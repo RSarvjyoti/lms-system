@@ -24,6 +24,8 @@ Each task is represented as a JSON object with the following format:
     correctAnswer: "The correct answer",
   },
 }
+```
+## How to run local
 
 1. **Clone the repository**:
    ```bash
@@ -52,8 +54,8 @@ Each task is represented as a JSON object with the following format:
         └── LMSPage.jsx                 # Main page rendering tasks and assessments
 
 
-Screenshot :
 
+## Screenshot 
 
 ![screencapture-lms-system-neon-vercel-app-2024-12-18-15_38_30](https://github.com/user-attachments/assets/0b2ea17c-bfb2-4306-948f-1b8af6836253)
 
