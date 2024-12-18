@@ -25,17 +25,35 @@ Each task is represented as a JSON object with the following format:
   },
 }
 
- - Clone the repository:
+- Clone the repository:
    git clone https://github.com/your-username/educational-task-platform.git
- - Navigate to the project directory:
+
+- Navigate to the project directory:
   lms-system/lms
- - install
+
+- install
    npm i
- - start project
+
+- start project
    npm run dev
 
-## Go Live : https://lms-system-neon.vercel.app/
+### Live Link https://lms-system-neon.vercel.app/
 
 ## Folder Structure :
+   src/
+   ├── components/
+   │    ├── AssessmentSection.jsx       # Handles displaying quiz assessments
+   │    ├── NextTaskButton.jsx          # Button for navigating to the next task
+   │    └── VideoSection.jsx            # Displays the video tutorial
+   │
+   ├── pages/
+        └── LMSPage.jsx                 # Main page rendering tasks and assessments
 
-## Screenshot :
+
+Screenshot :
+
+
+![screencapture-lms-system-neon-vercel-app-2024-12-18-15_38_30](https://github.com/user-attachments/assets/0b2ea17c-bfb2-4306-948f-1b8af6836253)
+
+![screencapture-lms-system-neon-vercel-app-2024-12-18-15_38_53](https://github.com/user-attachments/assets/355cf8e3-cb08-450d-a638-43e02d0c6842)
+
