@@ -25,16 +25,18 @@ Each task is represented as a JSON object with the following format:
   },
 }
 
-- Clone the repository:
+1. **Clone the repository**:
+   ```bash
    git clone https://github.com/your-username/educational-task-platform.git
-
-- Navigate to the project directory:
-  lms-system/lms
-
-- install
+2. Navigate to the project directory:
+   ```bash
+   cd lms-system
+   cd lms
+4. Install dependencies:
+   ```bash
    npm i
-
-- start project
+7. Run the application in development mode:
+   ```bash
    npm run dev
 
 ### Live Link https://lms-system-neon.vercel.app/
